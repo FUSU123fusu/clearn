@@ -1,9 +1,9 @@
 #include <stdio.h>
-typedef unsigned int uint;
-typedef struct Node {
-    int data;
-    struct Node *next;
-} Node;
+// typedef unsigned int uint;
+// typedef struct Node {
+//     int data;
+//     struct Node *next;
+// } Node;
 
 // int add (int x,int y)
 // {
@@ -22,6 +22,12 @@ typedef struct Node {
 //     printf("%d\n",sum);
 //     return 0;
 // }
+// void test() {
+//     static int a = 1;
+//     a++;
+//     printf("%d\t", a);
+//     }
+
 int main (void) {
     // int a[20] ={10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29};
     // // printf("%d\n", a[8]);
@@ -35,8 +41,15 @@ int main (void) {
     // printf("请输入两个整数：");
     // scanf("%d,%d",&a,&b);
     // int r = a > b ? a :b;
-    // printf("较大值为：%d\n",r);
-    uint a = 1;
-    Node n2;    
+    // // printf("较大值为：%d\n",r);
+    // uint a = 1;
+    // Node n2;    
+    // for (int i = 0; i < 10; i++) {
+    //     test();
+    // }
     return 0;
 }
+//static
+//1.修饰局部变量
+//2.修饰函数
+//修饰全局变量

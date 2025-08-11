@@ -1,7 +1,7 @@
 #include <stdio.h>
 #define add(x, y) ((x) + (y)) //宏定义
 
-struct stu{
+/* struct stu{
     char name[20];
     int age;
     char sex [10];
@@ -12,10 +12,10 @@ void print(struct stu* ps){
     //-> 结构体指针访问成员
     //结构体指针
     printf("%s, %d, %s, %s\n", ps->name, ps->age, ps->sex, ps->telephone);
-}
+} */
 int main (void)
 {
-    struct stu s = {"Tom", 20, "male", "1234567890"}; //结构体变量
+/*     struct stu s = {"Tom", 20, "male", "1234567890"}; //结构体变量
 
     printf("%s, %d, %s, %s\n", s.name, s.age, s.sex, s.telephone); //输出结构体变量的值
     
@@ -28,6 +28,6 @@ int main (void)
     // printf("%d\n", *p); //输出指针变量p指向的值
     // printf("%d\n", &a); //输出变量a的地址
     printf("hello world\n");
-   print(&s); //通过函数输出结构体变量的值
+   print(&s); //通过函数输出结构体变量的值 */
     return 0;
 }

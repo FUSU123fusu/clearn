@@ -1,6 +1,6 @@
 //模拟用户登录，最多三次
 #include <stdio.h>
-#include <string.h> // For strcmp function
+#include <string.h> // forTheStrcmpFunction
 int main() {
     int i =0;
     char password[10];

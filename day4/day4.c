@@ -12,7 +12,9 @@ int main (){
     printf("请输入要查找的元素：");
     scanf("%d", &k);
     while (left <= right) {
-        mid = (left + right) / 2;
+        // mid = (left + right) / 2;
+        // mid = (left /2 + right /2 + (left % 2 + right % 2) / 2); // 防止溢出
+        mid = left + (right - left) / 2; // 防止溢出，写法更优
         if (arr[mid] == k) {
             printf("%d 存在于数组中\n", k);
             break; // 找到元素后退出循环
